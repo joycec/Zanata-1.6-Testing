@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://zanata-empire.lab.eng.bne.redhat.com:8080/" />
+<title>ContactTeamCoordinator</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ContactTeamCoordinator</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=Languages</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[contains(text(),'en-US')][.='en-US']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a:contains('Contact Team Coordinators')</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=input[id*='subjectField:subject'] </td>
+	<td></td>
+</tr>
+<!--Need to enter iframe to input RichText-->
+<tr>
+	<td>selectFrame</td>
+	<td>css=iframe[id*='messageField:messageTextArea_ifr']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=tinymce</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=tinymce</td>
+	<td>description of test contact</td>
+</tr>
+<!--Back to Subject Field-->
+<tr>
+	<td>selectFrame</td>
+	<td>relative=top</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[id*='subjectField:subject'] </td>
+	<td>test contact</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[value='Send Message']</td>
+	<td></td>
+</tr>
+<!--Verify-->
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Your message has been sent to</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

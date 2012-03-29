@@ -1,0 +1,43 @@
+[defaults]
+debug = false
+#errors = true
+server = jbossOrg
+
+[servers]
+
+def_usersys_redhat_com.url=http://def.usersys.redhat.com:8080/
+def_usersys_redhat_com.username=admin
+def_usersys_redhat_com.key=b6d7044e9ee3b2447c28fb7c50d86d98
+
+zanata_1_4_auto.url=http://zanata-endeavour.lab.eng.bne.redhat.com:8080/
+zanata_1_4_auto.username=admin
+zanata_1_4_auto.key=b6d7044e9ee3b2447c28fb7c50d86d98
+
+zanata_1_4_fedora.url=http://zanata-argonaut.lab.eng.bne.redhat.com:8080/
+zanata_1_4_fedora.username=admin
+zanata_1_4_fedora.key=b6d7044e9ee3b2447c28fb7c50d86d98
+
+zanata_1_4_kerberos.url=http://zanata-dauntless.lab.eng.bne.redhat.com:8080/
+zanata_1_4_kerberos.username=admin
+zanata_1_4_kerberos.key=b6d7044e9ee3b2447c28fb7c50d86d98
+
+zanata_1_4_nukes.url=http://zanata-esperance.lab.eng.bne.redhat.com:8080/
+zanata_1_4_nukes.username=admin
+zanata_1_4_nukes.key=b6d7044e9ee3b2447c28fb7c50d86d98
+
+zanata_1_5_auto.url=http://zanata-empire.lab.eng.bne.redhat.com:8080/
+zanata_1_5_auto.username=admin
+zanata_1_5_auto.key=b6d7044e9ee3b2447c28fb7c50d86d98
+
+zanata_1_5_fedora.url=http://zanata-excalibur.lab.eng.bne.redhat.com:8080/
+zanata_1_5_fedora.username=admin
+zanata_1_5_fedora.key=b6d7044e9ee3b2447c28fb7c50d86d98
+
+zanata_1_5_kerberos.url=http://zanata-fearless.lab.eng.bne.redhat.com:8080/
+zanata_1_5_kerberos.username=admin
+zanata_1_5_kerberos.key=b6d7044e9ee3b2447c28fb7c50d86d98
+
+zanata_1_5_nukes.url=http://zanata-intrepid.lab.eng.bne.redhat.com:8080/
+zanata_1_5_nukes.username=admin
+zanata_1_5_nukes.key=6b01c74c5310d2c8255f1453246b4fb4
+
